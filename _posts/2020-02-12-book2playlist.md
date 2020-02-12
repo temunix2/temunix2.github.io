@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Book2Playlist"
 date: 2020-02-12
 ---
