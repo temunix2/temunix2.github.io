@@ -19,19 +19,9 @@
 			
 			</div><!-- /.container -->
 		<footer class="footer">
-      <li>
-        <a itemprop="sameAs" href="//linkedin.com/in/ngawang-tsetan" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-linkedin"></i>
-          LinkedIn
-        </a>
-      </li>
-      
-      <li>
-        <a itemprop="sameAs" href="//github.com/temunix2" target="_blank" rel="noopener noreferrer">
-          <i class="fa fa-github"></i>
-          Github
-        </a>
-      </li>
+			 {% if site.footer-links.github %}<a href="http://github.com/{{ site.footer-links.github }}">Github</a>{% endif %}
+  			{% if site.footer-links.twitter %}<a href="http://twitter.com/{{ site.footer-links.twitter }}">Linkedin</a>{% endif %}
+
 		</footer>
 		</body>
 	</html>
