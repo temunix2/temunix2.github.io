@@ -1,4 +1,5 @@
 ---
+layout: about
 title: "About"
 date: 2020-02-12
 ---
