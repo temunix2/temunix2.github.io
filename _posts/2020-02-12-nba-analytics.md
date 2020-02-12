@@ -2,6 +2,7 @@
 layout: post
 title: "NBA Analytics"
 date: 2020-02-12
+
 ---
 
 <h2>NBA Salaries</h2>
