@@ -40,7 +40,7 @@ So, in order for me to match my song lyric topics to Spotify's more recent songs
 
 In order for me to find similar songs as my topic I leveraged cosine similarity matching. How cosine similarity works is that first you have the data mapped onto a feature space. The data in this case describing each song is the audio features. In the example below the feature space is mapped in two dimensions but it is the same as we increase the number of dimensions. Then by finding the cosine of the angle between the two vectors we can find how close they are in that feature space. We do this for all the data points and by returning the points that have the smallest cosine value from the point of interest we will find the most similar point (i.e. similar songs).
 
-![](http://i0.wp.com/techinpink.com/wp-content/uploads/2017/07/cosine.png?resize=300%2C230)
+![](https://i.stack.imgur.com/QlFJt.png)
 
 Other distance metrics I included were Manhattan and Euclidean distance. Manhattan distance is the distance between two points measured along axes at right angles similar to city blocks in Manhattan. Euclidean distance is the distance metric most of us learn in geometry class which draws a straight line between two points to find the distance.
 
