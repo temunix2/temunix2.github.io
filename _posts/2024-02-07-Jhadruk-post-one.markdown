@@ -3,6 +3,8 @@ layout: single
 title:  "Paul Graham Essay Responses"
 date:   2024-02-07 16:32:06 -0500
 categories: jekyll update
+header:
+  image: /assets/images/need_to_read_img.png
 ---
 
 The Need to Read - ([link](https://paulgraham.com/read.html))
@@ -20,7 +22,7 @@ I now think about this reading in the sense that it can be helpful to learn to w
 
 ## Writing as a Form of Magic
 
-Again, I would counter and say that my inability as a writer is the problem, not the process of capturing these ideas. Think about, for example, how some amazing writers are able to invoke these emotions in millions of people that read the text. These are the true magicians, as they are able to bottle the genie in the lamp. While people who are not skilled at the magic of writing are unable to fully capture the elusive genie in the lamp.
+Again, I would counter and say that my inability as a writer is the problem, not the process of capturing these ideas. Think about it, for example, how some amazing writers are able to invoke these emotions in millions of people that read the text. These are the true magicians, as they are able to bottle the genie in the lamp. While people who are not skilled at the magic of writing are unable to fully capture the elusive genie in the lamp.
 
 But fear not, because just the mere fact that you are able to have these imaginative thoughts is a good sign for the art of learning to write is easier than the art of learning to imagine.
 
@@ -28,6 +30,6 @@ But fear not, because just the mere fact that you are able to have these imagina
 
 The other point I wanted to make was that people are now so lazy in their forms of consumption. Might need to look into the science of this, but I would think that people that are watching TV, or movies are using less or different parts of their brain than when reading. There is less to imagine because when you watch something, a director has chosen the look, color, setting, tone, music, and mood of the scene, while reading a book your brain is creating all that in the background, even if you don’t even realize it is doing it.
 
-It is good to appreciate the art form that is moving pictures but also good to acknowledge the need for our society to read books as well. I feel that reading books is on a decline and hope that we can bring it back.
+Although it is good to appreciate the art form that is moving pictures but also good to acknowledge the need for our society to read books as well. I believe reading books is on a decline and hope that we can bring it back.
 
 
