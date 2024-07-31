@@ -100,6 +100,9 @@ analytics:
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
+# Custom head
+head_scripts:
+  - /assets/js/custom-head.js
 
 
 # Site Author
