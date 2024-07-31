@@ -2,6 +2,7 @@
 layout: single
 title:  "Paul Graham Essay Responses"
 date:   2024-02-07 16:32:06 -0500
+author_profile: false
 categories: jekyll update
 header:
   image: 

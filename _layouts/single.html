@@ -23,6 +23,22 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
+    {% if page.layout == "home" or page.layout == "posts" or page.layout == "archive" %}
+    {% if site.author %}
+      <div class="author__avatar">
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" itemprop="image">
+      </div>
+      <div class="author__content">
+        <h3 class="author__name" itemprop="name">{{ site.author.name }}</h3>
+        {% if site.author.bio %}
+          <div class="author__bio" itemprop="description">
+            {{ site.author.bio }}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endif %}
+
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>

@@ -4,6 +4,20 @@ layout: archive
 
 {{ content }}
 
+{% if site.author %}
+  <div class="author__avatar">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" itemprop="image">
+  </div>
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">{{ site.author.name }}</h3>
+    {% if site.author.bio %}
+      <div class="author__bio" itemprop="description">
+        {{ site.author.bio }}
+      </div>
+    {% endif %}
+  </div>
+{% endif %}
+
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}

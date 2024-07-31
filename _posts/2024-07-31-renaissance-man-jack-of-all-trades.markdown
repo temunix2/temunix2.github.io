@@ -3,6 +3,7 @@ layout: single
 title: "The Renaissance Man: A Case for Being a Jack of All Trades"
 date: 2024-07-31 09:00:00 -0500
 categories: personal-development
+author_profile: false
 header:
   image: 
   image_description: "Renaissance Man Illustration"
