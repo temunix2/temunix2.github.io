@@ -4,7 +4,10 @@ title: "The Renaissance Man: A Case for Being a Jack of All Trades"
 date: 2024-07-31 09:00:00 -0500
 categories: personal-development
 header:
-  image: /assets/images/renaissance_man.png
+  image: 
+  image_description: "Renaissance Man Illustration"
+  caption: "I"
+  classes: page__hero-image
 ---
 
 "A jack of all trades but a master of none... often times better than a master of one."
@@ -70,3 +73,5 @@ In a world that often pushes for hyper-specialization, don't underestimate the v
 By cultivating a broad base of knowledge and skills, while still maintaining depth in key areas, we can navigate the complexities of our modern world more effectively. We can innovate, lead, and adapt in ways that specialists often cannot.
 
 So, go ahead - explore that new field you've been curious about. Draw connections between your areas of expertise. You might just find that your diverse knowledge becomes your greatest strength in an ever-changing world.
+
+![Renaissance Man Illustration](/assets/images/renaissance_man.png)
